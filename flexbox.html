@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css flexbox</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box{
+         display: flex;
+         /* flex-direction: column; */
+         /* justify-content: flex-end; */
+         /* justify-content: center; */
+         /* justify-content: space-between; */
+         /* justify-content: space-around; */
+         /* justify-content: space-evenly; */
+         justify-content: start;
+         align-items: center;
+        }
+        .a{
+            background-color: black;
+            height: 50px;
+            width: 50px;
+        }
+        .b{
+            background-color: red;
+            height: 50px;
+            width: 50px;
+        }
+        .c{
+             background-color: blue;
+            height: 50px;
+            width: 50px;
+        }
+        .d{
+            background-color: brown;
+            height: 50px;
+            width: 50px;
+        }
+        .e{
+            background-color: aqua;
+            height: 50px;
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+<p class="a">boxes</p>
+<p class="b">boxes</p>
+<p class="c">boxes</p>
+<p class="d">boxes</p>
+<p class="e">boxes</p>
+    </div>
+</body>
+</html>
