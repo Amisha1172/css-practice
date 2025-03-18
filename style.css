@@ -21,4 +21,15 @@
 h1{
     text-align: center;
 }
-
+@media screen and (min-width:576px) {
+    .main{
+        grid-template-columns: auto auto;
+        background-color: aliceblue;
+    }
+}
+@media screen and (min-width:1200px){
+    .main{
+        grid-template-columns: auto auto;
+        background-color: red;
+    }
+}
